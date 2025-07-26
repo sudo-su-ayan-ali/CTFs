@@ -66,17 +66,11 @@ Successful login:
 
 You can use `help` to list available FTP commands:
 
-![FTP Help](
-<img width="499" height="169" alt="Screenshot_20250726_132850" src="https://github.com/user-attachments/assets/9bf61b9b-adec-4e68-8d3d-5b3dc74db496" />
-<img width="502" height="124" alt="Screenshot_20250726_132902" src="https://github.com/user-attachments/assets/fd54b8c5-7d15-4b35-85d2-897b76e1f38e" />
-)
+![FTP Help](https://lmarena.ai/c/Screenshot_20250726_132918.png)
 
 List files in the directory:
 
-![FTP List](
-<img width="735" height="524" alt="Screenshot_20250726_132918" src="https://github.com/user-attachments/assets/e783ae27-3ca2-4d6a-909b-f7136a148849" />
-)
-
+![FTP List](https://lmarena.ai/c/Screenshot_20250726_132936.png)
 
 ---
 
@@ -84,10 +78,7 @@ List files in the directory:
 
 Download the `flag.txt` file:
 
-![FTP Get Flag](
-<img width="731" height="157" alt="Screenshot_20250726_132936" src="https://github.com/user-attachments/assets/ee6e9b89-83d2-4067-95ee-8a59056a0b39" />
-
-)
+![FTP Get Flag](https://lmarena.ai/c/Screenshot_20250726_132955.png)
 
 ftp
 
@@ -109,8 +100,7 @@ bye
 
 Check the contents of `flag.txt`:
 
-![Flag Reveal](<img width="425" height="209" alt="Screenshot_20250726_133006" src="https://github.com/user-attachments/assets/f522e995-4ce7-49dc-aa0f-511819190236" />
-)
+![Flag Reveal](https://lmarena.ai/c/Screenshot_20250726_133006.png)
 
 Bash
 
