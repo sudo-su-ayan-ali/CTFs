@@ -456,4 +456,3 @@ This is one of the vulnerable machines I learnt the most from when I first did i
 
 Thank you for reading and happy hacking!
 
-Check my next adventure: [CTF #2 - Lord Of The Root](https://github.com/amtzespinosa/lord-of-the-root-walkthrough)
