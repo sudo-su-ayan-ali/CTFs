@@ -1,16 +1,14 @@
 # Basic-Pentesting-1
 ***Description:*** This is a small boot2root VM I created for my university’s cyber security group. It contains multiple remote vulnerabilities and multiple privilege escalation vectors. I did all of my testing for this VM on VirtualBox, so that’s the recommended platform. I have been informed that it also works with VMware, but I haven’t tested this personally.  
-This VM is specifically intended for newcomers to penetration testing. If you’re a beginner, you should hopefully find the difficulty of the VM to be just right.  Your goal is to remotely attack the VM and gain root privileges. Once you’ve finished, try to find other vectors you might have missed! If you enjoyed the VM or have questions, feel free to contact me at: josiah@vt.edu  If you finished the VM, please also consider posting a writeup! Writeups help you internalize what you worked on and help anyone else who might be struggling or wants to see someone else’s process. I look forward to reading them!
+This VM is specifically intended for newcomers to penetration testing. If you’re a beginner, you should hopefully find the difficulty of the VM to be just right.  Your goal is to remotely attack the VM and gain root privileges. Once you’ve finished, try to find other vectors you might have missed! If you enjoyed the VM or have questions, feel free to contact me If you finished the VM, please also consider posting a writeup! Writeups help you internalize what you worked on and help anyone else who might be struggling or wants to see someone else’s process. I look forward to reading them!
 
 ## Scanning
 
 **nmap 192.168.122.144<target-ip>**
 
-![Basic%20Pentesting%201%20436e9ce4dd744079bb74f2c246b2b468/Untitled.png](Basic%20Pentesting%201%20436e9ce4dd744079bb74f2c246b2b468/Untitled.png)
 
 **nmap -sV -A 192.168.122.144 (Service version scan)**
 
-![Basic%20Pentesting%201%20436e9ce4dd744079bb74f2c246b2b468/Untitled%201.png](Basic%20Pentesting%201%20436e9ce4dd744079bb74f2c246b2b468/Untitled%201.png)
 
 **nmap -sV -A --script vuln 192.168.122.144 (Vulnerability Scanning)**
 
@@ -70,7 +68,6 @@ root@kali:~#
 
 **nikto -h http://192.168.122.144/**
 
-![Basic%20Pentesting%201%20436e9ce4dd744079bb74f2c246b2b468/Untitled%202.png](Basic%20Pentesting%201%20436e9ce4dd744079bb74f2c246b2b468/Untitled%202.png)
 
 **Found secret directory which is wordpress
 
@@ -82,23 +79,17 @@ Then open vtcsec/secret/wp-login.php in browser
 
 I tried default username and password i.e. admin:admin and it gives me access to admin user dashboard
 
-![Basic%20Pentesting%201%20436e9ce4dd744079bb74f2c246b2b468/Untitled%203.png](Basic%20Pentesting%201%20436e9ce4dd744079bb74f2c246b2b468/Untitled%203.png)
-
-![Basic%20Pentesting%201%20436e9ce4dd744079bb74f2c246b2b468/Untitled%204.png](Basic%20Pentesting%201%20436e9ce4dd744079bb74f2c246b2b468/Untitled%204.png)
 
 ## Exploitation
 
 Now go to appearance > theme > twentyseventeen and select 404.php template
 
-![Basic%20Pentesting%201%20436e9ce4dd744079bb74f2c246b2b468/Untitled%205.png](Basic%20Pentesting%201%20436e9ce4dd744079bb74f2c246b2b468/Untitled%205.png)
 
 Edit the content and paste reverse shell script in it and save it.
 
-![Basic%20Pentesting%201%20436e9ce4dd744079bb74f2c246b2b468/Untitled%206.png](Basic%20Pentesting%201%20436e9ce4dd744079bb74f2c246b2b468/Untitled%206.png)
 
 start nc listener and open vtcsec/secret/wp-content/themes/twentyseventeen/404.php 
 
-![Basic%20Pentesting%201%20436e9ce4dd744079bb74f2c246b2b468/Untitled%207.png](Basic%20Pentesting%201%20436e9ce4dd744079bb74f2c246b2b468/Untitled%207.png)
 
 It gives us shell for www-data user
 
@@ -106,7 +97,6 @@ It gives us shell for www-data user
 
 **whoami**
 
-![Basic%20Pentesting%201%20436e9ce4dd744079bb74f2c246b2b468/Untitled%208.png](Basic%20Pentesting%201%20436e9ce4dd744079bb74f2c246b2b468/Untitled%208.png)
 
 ## Privilege escalation
 
@@ -118,8 +108,6 @@ msf6 exploit(unix/ftp/proftpd_133c_backdoor) **set rhosts 192.168.122.178**
 msf6 exploit(unix/ftp/proftpd_133c_backdoor) **exploit**
 ```
 
-![Basic%20Pentesting%201%20436e9ce4dd744079bb74f2c246b2b468/Untitled%209.png](Basic%20Pentesting%201%20436e9ce4dd744079bb74f2c246b2b468/Untitled%209.png)
-
 ***It gives us root user shell
 
-![Basic%20Pentesting%201%20436e9ce4dd744079bb74f2c246b2b468/Untitled%2010.png](Basic%20Pentesting%201%20436e9ce4dd744079bb74f2c246b2b468/Untitled%2010.png)
+
