@@ -12,7 +12,7 @@ This VM is specifically intended for newcomers to penetration testing. If you’
 
 **nmap -sV -A --script vuln 192.168.122.144 (Vulnerability Scanning)**
 
-```jsx
+```jsx 
 root@kali:~# **nmap -sV -A --script vuln 192.168.122.144**
 Starting Nmap 7.80SVN ( https://nmap.org ) at 2021-05-21 03:30 EDT
 Nmap scan report for 192.168.122.144
