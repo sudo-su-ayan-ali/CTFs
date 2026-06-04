@@ -234,7 +234,6 @@ This code starts Vim as super-user, then performs a command in Vim(as a super-us
 
 It returned the following:
 
-![root screen](./screenshots/rootscreen.png)
 
 Never mind that gibberish on the right, that hash-mark on the very right is very promising! To verify if I'm root, I typed the following:
 
@@ -250,7 +249,7 @@ root
 
 I am root!
 
-![i am root](./screenshots/iamroot.jpg)
+
 
 **Disclaimer:** I apologize, I know that was cheesy, but I couldn't resist.
 
