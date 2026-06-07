@@ -1,1 +1,0 @@
-# Dirsearch started at 2026-06-06 15:03:10 as: /usr/share/dirsearch/dirsearch.py -u http://154.57.164.73:32078 -w /usr/share/SecLists/Discovery/Web-Content/DirBuster-2007_directory-list-2.3-medium.txt -o dir
