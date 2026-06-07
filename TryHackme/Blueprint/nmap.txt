@@ -1,0 +1,19 @@
+# Nmap 7.99 scan initiated Sun Jun  7 10:30:44 2026 as: nmap -Pn -o nmap.txt 10.48.182.77
+Nmap scan report for 10.48.182.77 (10.48.182.77)
+Host is up (0.16s latency).
+Not shown: 988 closed tcp ports (reset)
+PORT      STATE SERVICE
+80/tcp    open  http
+135/tcp   open  msrpc
+139/tcp   open  netbios-ssn
+443/tcp   open  https
+445/tcp   open  microsoft-ds
+3306/tcp  open  mysql
+8080/tcp  open  http-proxy
+49152/tcp open  unknown
+49153/tcp open  unknown
+49154/tcp open  unknown
+49160/tcp open  unknown
+49165/tcp open  unknown
+
+# Nmap done at Sun Jun  7 10:31:06 2026 -- 1 IP address (1 host up) scanned in 22.00 seconds
