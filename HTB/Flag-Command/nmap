@@ -1,0 +1,9 @@
+# Nmap 7.99 scan initiated Sat Jun  6 15:01:52 2026 as: nmap -Pn -o nmap 154.57.164.73
+Nmap scan report for 154.57.164.73
+Host is up (0.14s latency).
+Not shown: 914 filtered tcp ports (no-response), 84 closed tcp ports (conn-refused)
+PORT      STATE SERVICE
+30718/tcp open  unknown
+31038/tcp open  unknown
+
+# Nmap done at Sat Jun  6 15:02:06 2026 -- 1 IP address (1 host up) scanned in 13.88 seconds
