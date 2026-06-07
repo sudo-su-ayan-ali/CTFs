@@ -1,0 +1,5 @@
+# Dirsearch started at 2026-06-05 14:38:03 as: /usr/share/dirsearch/dirsearch.py -u http://10.49.158.102 -w /usr/share/SecLists/Discovery/Web-Content/common.txt -o dir
+301   316B http://10.49.158.102/uploads  (41ms)  ->  http://10.49.158.102/uploads/
+301   312B http://10.49.158.102/css  (21ms)  ->  http://10.49.158.102/css/
+301   311B http://10.49.158.102/js  (19ms)  ->  http://10.49.158.102/js/
+301   314B http://10.49.158.102/panel  (19ms)  ->  http://10.49.158.102/panel/
