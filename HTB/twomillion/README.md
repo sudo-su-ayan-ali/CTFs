@@ -50,7 +50,7 @@ Target: http://2million.htb/
 [13:10:50] 301 -   162B - /controllers  ->  http://2million.htb/controllers/
 
 Task Completed
-
+```
 ---
 
 - we found the some directory and login, invite, etc. so now we see the source code of the website and the we find the next step. `inviteapi.min.js` 
