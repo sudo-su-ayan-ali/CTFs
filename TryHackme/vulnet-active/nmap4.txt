@@ -1,0 +1,19 @@
+# Nmap 7.99 scan initiated Tue Jun  9 11:04:05 2026 as: nmap -sT -T4 -sV -sC -Pn -p6379,9389,49666,49667,49669,49670,49671,49678,49691,49685 -o nmap4.txt 10.49.185.207
+Nmap scan report for 10.49.185.207 (10.49.185.207)
+Host is up (0.019s latency).
+
+PORT      STATE    SERVICE    VERSION
+6379/tcp  open     redis      Redis key-value store 2.8.2402
+9389/tcp  open     mc-nmf     .NET Message Framing
+49666/tcp open     msrpc      Microsoft Windows RPC
+49667/tcp open     msrpc      Microsoft Windows RPC
+49669/tcp open     msrpc      Microsoft Windows RPC
+49670/tcp open     ncacn_http Microsoft Windows RPC over HTTP 1.0
+49671/tcp open     msrpc      Microsoft Windows RPC
+49678/tcp open     msrpc      Microsoft Windows RPC
+49685/tcp filtered unknown
+49691/tcp open     msrpc      Microsoft Windows RPC
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Tue Jun  9 11:05:06 2026 -- 1 IP address (1 host up) scanned in 60.75 seconds

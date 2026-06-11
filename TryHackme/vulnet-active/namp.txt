@@ -1,0 +1,12 @@
+# Nmap 7.99 scan initiated Tue Jun  9 10:51:04 2026 as: nmap -Pn -o vulnet-active/namp.txt 10.49.185.207
+Nmap scan report for 10.49.185.207 (10.49.185.207)
+Host is up (0.017s latency).
+Not shown: 995 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+53/tcp  open  domain
+135/tcp open  msrpc
+139/tcp open  netbios-ssn
+445/tcp open  microsoft-ds
+464/tcp open  kpasswd5
+
+# Nmap done at Tue Jun  9 10:51:10 2026 -- 1 IP address (1 host up) scanned in 6.17 seconds
