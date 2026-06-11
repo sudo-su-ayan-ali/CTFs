@@ -1,0 +1,24 @@
+# Nmap 7.99 scan initiated Tue Jun  9 10:57:31 2026 as: nmap -Pn -p- -o nmap3.txt -vvv 10.49.185.207
+Nmap scan report for 10.49.185.207 (10.49.185.207)
+Host is up, received user-set (0.014s latency).
+Scanned at 2026-06-09 10:57:31 IST for 108s
+Not shown: 65520 filtered tcp ports (no-response)
+PORT      STATE SERVICE      REASON
+53/tcp    open  domain       syn-ack ttl 126
+135/tcp   open  msrpc        syn-ack ttl 126
+139/tcp   open  netbios-ssn  syn-ack ttl 126
+445/tcp   open  microsoft-ds syn-ack ttl 126
+464/tcp   open  kpasswd5     syn-ack ttl 126
+6379/tcp  open  redis        syn-ack ttl 126
+9389/tcp  open  adws         syn-ack ttl 126
+49666/tcp open  unknown      syn-ack ttl 126
+49667/tcp open  unknown      syn-ack ttl 126
+49669/tcp open  unknown      syn-ack ttl 126
+49670/tcp open  unknown      syn-ack ttl 126
+49671/tcp open  unknown      syn-ack ttl 126
+49678/tcp open  unknown      syn-ack ttl 126
+49691/tcp open  unknown      syn-ack ttl 126
+49785/tcp open  unknown      syn-ack ttl 126
+
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Tue Jun  9 10:59:19 2026 -- 1 IP address (1 host up) scanned in 107.96 seconds

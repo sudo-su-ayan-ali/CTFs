@@ -1,0 +1,17 @@
+# Dirsearch started at 2026-06-11 13:01:44 as: /usr/share/dirsearch/dirsearch.py -u http://10.129.1.210 -w /usr/share/SecLists/Discovery/Web-Content/DirBuster-2007_directory-list-2.3-medium.txt -o dir
+301   162B http://2million.htb/images  (213ms)  ->  http://2million.htb/images/
+302     0B http://2million.htb/home  (285ms)  ->  /
+200    4KB http://2million.htb/login  (82ms)
+200    4KB http://2million.htb/register  (96ms)
+301   162B http://2million.htb/assets  (130ms)  ->  http://2million.htb/assets/
+301   162B http://2million.htb/css  (96ms)  ->  http://2million.htb/css/
+301   162B http://2million.htb/js  (86ms)  ->  http://2million.htb/js/
+401     0B http://2million.htb/api  (108ms)
+302     0B http://2million.htb/logout  (120ms)  ->  /
+200    2KB http://2million.htb/404  (87ms)
+301   162B http://2million.htb/fonts  (86ms)  ->  http://2million.htb/fonts/
+301   162B http://2million.htb/views  (111ms)  ->  http://2million.htb/views/
+301   162B http://2million.htb/VPN  (83ms)  ->  http://2million.htb/VPN/
+200    2KB http://2million.htb/0404  (92ms)
+200    4KB http://2million.htb/invite  (87ms)
+301   162B http://2million.htb/controllers  (179ms)  ->  http://2million.htb/controllers/

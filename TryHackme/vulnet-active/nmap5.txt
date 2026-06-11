@@ -1,0 +1,9 @@
+# Nmap 7.99 scan initiated Tue Jun  9 11:46:12 2026 as: nmap -sU -sS --script smb-enum-users.nse -p U:137,T:139 -o nmap5.txt 10.49.185.207
+Nmap scan report for 10.49.185.207 (10.49.185.207)
+Host is up (0.020s latency).
+
+PORT    STATE         SERVICE
+139/tcp open          netbios-ssn
+137/udp open|filtered netbios-ns
+
+# Nmap done at Tue Jun  9 11:46:17 2026 -- 1 IP address (1 host up) scanned in 5.05 seconds
