@@ -1,0 +1,11 @@
+# Nmap 7.99 scan initiated Fri Jun 12 14:39:31 2026 as: nmap -Pn -o nmap.txt -vvv 10.48.139.226
+Nmap scan report for 10.48.139.226 (10.48.139.226)
+Host is up, received user-set (0.014s latency).
+Scanned at 2026-06-12 14:39:31 IST for 1s
+Not shown: 998 closed tcp ports (reset)
+PORT   STATE SERVICE REASON
+22/tcp open  ssh     syn-ack ttl 62
+80/tcp open  http    syn-ack ttl 62
+
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Fri Jun 12 14:39:32 2026 -- 1 IP address (1 host up) scanned in 0.36 seconds
