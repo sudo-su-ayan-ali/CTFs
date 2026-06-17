@@ -1,0 +1,43 @@
+# Nmap 7.99 scan initiated Wed Jun 17 12:09:16 2026 as: nmap -sV -sC -T4 -Pn -o nmap 10.49.166.158
+Nmap scan report for 10.49.166.158 (10.49.166.158)
+Host is up (0.063s latency).
+Not shown: 992 closed tcp ports (conn-refused)
+PORT      STATE SERVICE       VERSION
+135/tcp   open  msrpc         Microsoft Windows RPC
+139/tcp   open  netbios-ssn   Microsoft Windows netbios-ssn
+445/tcp   open  microsoft-ds  Windows 7 Professional 7601 Service Pack 1 microsoft-ds (workgroup: WORKGROUP)
+3389/tcp  open  ms-wbt-server Microsoft Terminal Service
+|_ssl-date: 2026-06-17T06:40:42+00:00; -1s from scanner time.
+| ssl-cert: Subject: commonName=Jon-PC
+| Not valid before: 2026-06-16T06:33:30
+|_Not valid after:  2026-12-16T06:33:30
+49152/tcp open  msrpc         Microsoft Windows RPC
+49153/tcp open  msrpc         Microsoft Windows RPC
+49154/tcp open  msrpc         Microsoft Windows RPC
+49160/tcp open  msrpc         Microsoft Windows RPC
+Service Info: Host: JON-PC; OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+| smb-security-mode: 
+|   account_used: guest
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+| smb2-time: 
+|   date: 2026-06-17T06:40:36
+|_  start_date: 2026-06-17T06:32:39
+| smb-os-discovery: 
+|   OS: Windows 7 Professional 7601 Service Pack 1 (Windows 7 Professional 6.1)
+|   OS CPE: cpe:/o:microsoft:windows_7::sp1:professional
+|   Computer name: Jon-PC
+|   NetBIOS computer name: JON-PC\x00
+|   Workgroup: WORKGROUP\x00
+|_  System time: 2026-06-17T01:40:36-05:00
+|_nbstat: NetBIOS name: JON-PC, NetBIOS user: <unknown>, NetBIOS MAC: 0a:08:6e:2d:6f:05 (unknown)
+| smb2-security-mode: 
+|   2.1: 
+|_    Message signing enabled but not required
+|_clock-skew: mean: 1h14m59s, deviation: 2h30m00s, median: -1s
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed Jun 17 12:10:43 2026 -- 1 IP address (1 host up) scanned in 87.31 seconds
