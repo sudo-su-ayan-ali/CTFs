@@ -1,0 +1,31 @@
+# Nmap 7.99 scan initiated Thu Jun 18 09:42:37 2026 as: nmap -T4 -sC -sV -p53,88,135,139,389,445,593,636,3268,3269,5985 -o nmap2.txt 10.129.5.103
+Nmap scan report for 10.129.5.103 (10.129.5.103)
+Host is up (0.56s latency).
+
+PORT     STATE SERVICE           VERSION
+53/tcp   open  domain            Simple DNS Plus
+88/tcp   open  kerberos-sec      Microsoft Windows Kerberos (server time: 2026-06-18 11:12:47Z)
+135/tcp  open  msrpc             Microsoft Windows RPC
+139/tcp  open  netbios-ssn       Microsoft Windows netbios-ssn
+389/tcp  open  ldap              Microsoft Windows Active Directory LDAP (Domain: checkpoint.htb, Site: Default-First-Site-Name)
+445/tcp  open  microsoft-ds?
+593/tcp  open  ncacn_http        Microsoft Windows RPC over HTTP 1.0
+636/tcp  open  ldapssl?
+3268/tcp open  ldap              Microsoft Windows Active Directory LDAP (Domain: checkpoint.htb, Site: Default-First-Site-Name)
+3269/tcp open  globalcatLDAPssl?
+5985/tcp open  http              Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+|_http-title: Not Found
+|_http-server-header: Microsoft-HTTPAPI/2.0
+Service Info: Host: DC01; OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+| smb2-security-mode: 
+|   3.1.1: 
+|_    Message signing enabled and required
+|_clock-skew: 6h59m59s
+| smb2-time: 
+|   date: 2026-06-18T11:13:26
+|_  start_date: N/A
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Thu Jun 18 09:44:22 2026 -- 1 IP address (1 host up) scanned in 104.68 seconds
