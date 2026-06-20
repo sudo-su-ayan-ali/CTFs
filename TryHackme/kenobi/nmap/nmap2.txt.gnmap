@@ -1,0 +1,4 @@
+# Nmap 7.99 scan initiated Sat Jun 20 09:32:38 2026 as: nmap -p- -Pn -oA nmap/nmap2.txt 10.49.152.214
+Host: 10.49.152.214 (10.49.152.214)	Status: Up
+Host: 10.49.152.214 (10.49.152.214)	Ports: 21/open/tcp//ftp///, 22/open/tcp//ssh///, 80/open/tcp//http///, 111/open/tcp//rpcbind///, 139/open/tcp//netbios-ssn///, 445/open/tcp//microsoft-ds///, 2049/open/tcp//nfs///, 38119/open/tcp/////, 39811/open/tcp/////, 45917/open/tcp/////, 47305/open/tcp/////	Ignored State: closed (65524)
+# Nmap done at Sat Jun 20 09:32:45 2026 -- 1 IP address (1 host up) scanned in 7.06 seconds

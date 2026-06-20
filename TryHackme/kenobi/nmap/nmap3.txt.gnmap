@@ -1,0 +1,4 @@
+# Nmap 7.99 scan initiated Sat Jun 20 09:33:20 2026 as: nmap -sC -sV -p- -Pn -oA nmap/nmap3.txt 10.49.152.214
+Host: 10.49.152.214 (10.49.152.214)	Status: Up
+Host: 10.49.152.214 (10.49.152.214)	Ports: 21/open/tcp//ftp//ProFTPD 1.3.5/, 22/open/tcp//ssh//OpenSSH 8.2p1 Ubuntu 4ubuntu0.13 (Ubuntu Linux; protocol 2.0)/, 80/open/tcp//http//Apache httpd 2.4.41 ((Ubuntu))/, 111/open/tcp//rpcbind//2-4 (RPC #100000)/, 139/open/tcp//netbios-ssn//Samba smbd 4/, 445/open/tcp//netbios-ssn//Samba smbd 4/, 2049/open/tcp//nfs//3-4 (RPC #100003)/, 38119/open/tcp//mountd//1-3 (RPC #100005)/, 39811/open/tcp//nlockmgr//1-4 (RPC #100021)/, 45917/open/tcp//mountd//1-3 (RPC #100005)/, 47305/open/tcp//mountd//1-3 (RPC #100005)/	Ignored State: closed (65524)
+# Nmap done at Sat Jun 20 09:33:43 2026 -- 1 IP address (1 host up) scanned in 22.15 seconds

@@ -1,0 +1,18 @@
+# Nmap 7.99 scan initiated Sat Jun 20 09:32:38 2026 as: nmap -p- -Pn -oA nmap/nmap2.txt 10.49.152.214
+Nmap scan report for 10.49.152.214 (10.49.152.214)
+Host is up (0.020s latency).
+Not shown: 65524 closed tcp ports (reset)
+PORT      STATE SERVICE
+21/tcp    open  ftp
+22/tcp    open  ssh
+80/tcp    open  http
+111/tcp   open  rpcbind
+139/tcp   open  netbios-ssn
+445/tcp   open  microsoft-ds
+2049/tcp  open  nfs
+38119/tcp open  unknown
+39811/tcp open  unknown
+45917/tcp open  unknown
+47305/tcp open  unknown
+
+# Nmap done at Sat Jun 20 09:32:45 2026 -- 1 IP address (1 host up) scanned in 7.06 seconds
