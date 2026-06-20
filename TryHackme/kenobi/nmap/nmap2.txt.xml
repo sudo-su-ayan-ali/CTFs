@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.99 scan initiated Sat Jun 20 09:32:38 2026 as: nmap -p- -Pn -oA nmap/nmap2.txt 10.49.152.214 -->
+<nmaprun scanner="nmap" args="nmap -p- -Pn -oA nmap/nmap2.txt 10.49.152.214" start="1781928158" startstr="Sat Jun 20 09:32:38 2026" version="7.99" xmloutputversion="1.05">
+<scaninfo type="syn" protocol="tcp" numservices="65535" services="1-65535"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1781928158" endtime="1781928165"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="10.49.152.214" addrtype="ipv4"/>
+<hostnames>
+<hostname name="10.49.152.214" type="PTR"/>
+</hostnames>
+<ports><extraports state="closed" count="65524">
+<extrareasons reason="reset" count="65524" proto="tcp" ports="1-20,23-79,81-110,112-138,140-444,446-2048,2050-38118,38120-39810,39812-45916,45918-47304,47306-65535"/>
+</extraports>
+<port protocol="tcp" portid="21"><state state="open" reason="syn-ack" reason_ttl="62"/><service name="ftp" method="table" conf="3"/></port>
+<port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="62"/><service name="ssh" method="table" conf="3"/></port>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="62"/><service name="http" method="table" conf="3"/></port>
+<port protocol="tcp" portid="111"><state state="open" reason="syn-ack" reason_ttl="62"/><service name="rpcbind" method="table" conf="3"/></port>
+<port protocol="tcp" portid="139"><state state="open" reason="syn-ack" reason_ttl="62"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="open" reason="syn-ack" reason_ttl="62"/><service name="microsoft-ds" method="table" conf="3"/></port>
+<port protocol="tcp" portid="2049"><state state="open" reason="syn-ack" reason_ttl="62"/><service name="nfs" method="table" conf="3"/></port>
+<port protocol="tcp" portid="38119"><state state="open" reason="syn-ack" reason_ttl="62"/></port>
+<port protocol="tcp" portid="39811"><state state="open" reason="syn-ack" reason_ttl="62"/></port>
+<port protocol="tcp" portid="45917"><state state="open" reason="syn-ack" reason_ttl="62"/></port>
+<port protocol="tcp" portid="47305"><state state="open" reason="syn-ack" reason_ttl="62"/></port>
+</ports>
+<times srtt="19890" rttvar="242" to="100000"/>
+</host>
+<runstats><finished time="1781928165" timestr="Sat Jun 20 09:32:45 2026" summary="Nmap done at Sat Jun 20 09:32:45 2026; 1 IP address (1 host up) scanned in 7.06 seconds" elapsed="7.06" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>
