@@ -1,0 +1,42 @@
+# Nmap 7.95 scan initiated Sat Jul  4 09:29:47 2026 as: nmap -Pn -T4 -vv -oN nmap/1.txt 10.48.153.238
+Nmap scan report for 10.48.153.238 (10.48.153.238)
+Host is up, received user-set (0.013s latency).
+Scanned at 2026-07-04 09:29:47 IST for 4s
+Not shown: 967 filtered tcp ports (no-response)
+PORT      STATE  SERVICE         REASON
+20/tcp    closed ftp-data        reset ttl 62
+21/tcp    open   ftp             syn-ack ttl 62
+22/tcp    open   ssh             syn-ack ttl 62
+80/tcp    open   http            syn-ack ttl 62
+990/tcp   closed ftps            reset ttl 62
+40193/tcp closed unknown         reset ttl 62
+40911/tcp closed unknown         reset ttl 62
+41511/tcp closed unknown         reset ttl 62
+42510/tcp closed caerpc          reset ttl 62
+44176/tcp closed unknown         reset ttl 62
+44442/tcp closed coldfusion-auth reset ttl 62
+44443/tcp closed coldfusion-auth reset ttl 62
+44501/tcp closed unknown         reset ttl 62
+45100/tcp closed unknown         reset ttl 62
+48080/tcp closed unknown         reset ttl 62
+49152/tcp closed unknown         reset ttl 62
+49153/tcp closed unknown         reset ttl 62
+49154/tcp closed unknown         reset ttl 62
+49155/tcp closed unknown         reset ttl 62
+49156/tcp closed unknown         reset ttl 62
+49157/tcp closed unknown         reset ttl 62
+49158/tcp closed unknown         reset ttl 62
+49159/tcp closed unknown         reset ttl 62
+49160/tcp closed unknown         reset ttl 62
+49161/tcp closed unknown         reset ttl 62
+49163/tcp closed unknown         reset ttl 62
+49165/tcp closed unknown         reset ttl 62
+49167/tcp closed unknown         reset ttl 62
+49175/tcp closed unknown         reset ttl 62
+49176/tcp closed unknown         reset ttl 62
+49400/tcp closed compaqdiag      reset ttl 62
+49999/tcp closed unknown         reset ttl 62
+50000/tcp closed ibm-db2         reset ttl 62
+
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Sat Jul  4 09:29:51 2026 -- 1 IP address (1 host up) scanned in 4.06 seconds

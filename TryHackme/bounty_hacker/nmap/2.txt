@@ -1,0 +1,70 @@
+# Nmap 7.95 scan initiated Sat Jul  4 09:31:56 2026 as: nmap -Pn -sV -sC -T4 -vv -oN nmap/2.txt 10.48.153.238
+Nmap scan report for 10.48.153.238 (10.48.153.238)
+Host is up, received user-set (0.013s latency).
+Scanned at 2026-07-04 09:31:57 IST for 16s
+Not shown: 967 filtered tcp ports (no-response)
+PORT      STATE  SERVICE         REASON         VERSION
+20/tcp    closed ftp-data        reset ttl 62
+21/tcp    open   ftp             syn-ack ttl 62 vsftpd 3.0.5
+| ftp-anon: Anonymous FTP login allowed (FTP code 230)
+|_Can't get directory listing: PASV failed: 550 Permission denied.
+| ftp-syst: 
+|   STAT: 
+| FTP server status:
+|      Connected to ::ffff:192.168.132.220
+|      Logged in as ftp
+|      TYPE: ASCII
+|      No session bandwidth limit
+|      Session timeout in seconds is 300
+|      Control connection is plain text
+|      Data connections will be plain text
+|      At session startup, client count was 4
+|      vsFTPd 3.0.5 - secure, fast, stable
+|_End of status
+22/tcp    open   ssh             syn-ack ttl 62 OpenSSH 8.2p1 Ubuntu 4ubuntu0.13 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   3072 fa:4a:fd:91:76:a4:32:6f:8e:1a:6a:89:fc:ab:dd:1a (RSA)
+| ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQC7QoU8xOXJPLnjqWnW8cxcjqTyroiwDJ3scuQhw34wLLdcQvI0cF651vDBB3a65ICCRJ9qs1+BjqG1HcEws6kEK6uCGU6mjZKzMaV1mnxAXN67GRQF2X9C1u0E0K5N77ueXTyMXPQbhTdbsbkiBhT2zr39AJSIvWtVMmoqN/gmZfXhkGrJu3fYj6S8RdXzMIqTPVY7loyCQa+kgUu8s339hNbRNDm8HwH8HpU6IQl9xF9xx4IVCoLSnzuVDxQFXol7T+RVM5Z8ks93rGsuh7g6wMC4gMX/5WbiwaTQvUM1aydT0Hd22PGIsHlfnva8P1hZ5iaIKZ6rKLMIEzO72nl3kh+iVgENGrCZAeFgMeLrUIVEuqC6D3WAOquOZB48J7V8RR9vJb1Ko4F89K5GutmzxaLFR7E+1KiI6mt6UaRGqikoDx79qBcyiPMyqgVhUMk3k+HuT9w3UtNkVX/K8EIuGDSHLNSMBftAhUpo6Q0/X/Mo7jJ+dSUvTGX8aTD8E+E=
+|   256 64:67:22:46:5d:70:c2:36:a7:4b:9c:4d:d1:b8:7b:ce (ECDSA)
+| ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBBl4s12R4A9m33V7tQ6AC0x9y40GBKa3zMymoF/9BNZG9OsZC7jfZyWGcwbxbjrgz7UtNActm+8ZhlpT3sIHt10=
+|   256 82:c9:52:0a:4e:51:19:5a:c0:e1:49:df:9c:7f:3e:15 (ED25519)
+|_ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAINqBDONTu4R4eJXuz16eXnqFvR8WsA7txuKYxImMJYp4
+80/tcp    open   http            syn-ack ttl 62 Apache httpd 2.4.41 ((Ubuntu))
+|_http-title: Site doesn't have a title (text/html).
+| http-methods: 
+|_  Supported Methods: GET POST OPTIONS HEAD
+|_http-server-header: Apache/2.4.41 (Ubuntu)
+990/tcp   closed ftps            reset ttl 62
+40193/tcp closed unknown         reset ttl 62
+40911/tcp closed unknown         reset ttl 62
+41511/tcp closed unknown         reset ttl 62
+42510/tcp closed caerpc          reset ttl 62
+44176/tcp closed unknown         reset ttl 62
+44442/tcp closed coldfusion-auth reset ttl 62
+44443/tcp closed coldfusion-auth reset ttl 62
+44501/tcp closed unknown         reset ttl 62
+45100/tcp closed unknown         reset ttl 62
+48080/tcp closed unknown         reset ttl 62
+49152/tcp closed unknown         reset ttl 62
+49153/tcp closed unknown         reset ttl 62
+49154/tcp closed unknown         reset ttl 62
+49155/tcp closed unknown         reset ttl 62
+49156/tcp closed unknown         reset ttl 62
+49157/tcp closed unknown         reset ttl 62
+49158/tcp closed unknown         reset ttl 62
+49159/tcp closed unknown         reset ttl 62
+49160/tcp closed unknown         reset ttl 62
+49161/tcp closed unknown         reset ttl 62
+49163/tcp closed unknown         reset ttl 62
+49165/tcp closed unknown         reset ttl 62
+49167/tcp closed unknown         reset ttl 62
+49175/tcp closed unknown         reset ttl 62
+49176/tcp closed unknown         reset ttl 62
+49400/tcp closed compaqdiag      reset ttl 62
+49999/tcp closed unknown         reset ttl 62
+50000/tcp closed ibm-db2         reset ttl 62
+Service Info: OSs: Unix, Linux; CPE: cpe:/o:linux:linux_kernel
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sat Jul  4 09:32:13 2026 -- 1 IP address (1 host up) scanned in 16.63 seconds
