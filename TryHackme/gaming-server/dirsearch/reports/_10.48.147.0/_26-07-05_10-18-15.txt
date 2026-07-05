@@ -1,0 +1,28 @@
+# Dirsearch started Sun Jul  5 10:19:07 2026 as: /usr/lib/python3/dist-packages/dirsearch/dirsearch.py -u 10.48.147.0
+
+403   276B   http://10.48.147.0/.ht_wsr.txt
+403   276B   http://10.48.147.0/.htaccess.bak1
+403   276B   http://10.48.147.0/.htaccess.orig
+403   276B   http://10.48.147.0/.htaccess.save
+403   276B   http://10.48.147.0/.htaccess_extra
+403   276B   http://10.48.147.0/.htaccess_sc
+403   276B   http://10.48.147.0/.htaccess.sample
+403   276B   http://10.48.147.0/.htaccessBAK
+403   276B   http://10.48.147.0/.htaccess_orig
+403   276B   http://10.48.147.0/.htaccessOLD
+403   276B   http://10.48.147.0/.htaccessOLD2
+403   276B   http://10.48.147.0/.htm
+403   276B   http://10.48.147.0/.html
+403   276B   http://10.48.147.0/.htpasswd_test
+403   276B   http://10.48.147.0/.htpasswds
+403   276B   http://10.48.147.0/.httr-oauth
+403   276B   http://10.48.147.0/.php
+200     2KB  http://10.48.147.0/about.php
+200   524B   http://10.48.147.0/about.html
+200    33B   http://10.48.147.0/robots.txt
+301   311B   http://10.48.147.0/secret    -> REDIRECTS TO: http://10.48.147.0/secret/
+200   456B   http://10.48.147.0/secret/
+403   276B   http://10.48.147.0/server-status/
+403   276B   http://10.48.147.0/server-status
+301   312B   http://10.48.147.0/uploads    -> REDIRECTS TO: http://10.48.147.0/uploads/
+200   523B   http://10.48.147.0/uploads/
