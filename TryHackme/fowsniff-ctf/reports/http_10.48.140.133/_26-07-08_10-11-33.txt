@@ -1,0 +1,28 @@
+# Dirsearch started Wed Jul  8 10:12:18 2026 as: /usr/lib/python3/dist-packages/dirsearch/dirsearch.py -u http://10.48.140.133
+
+403   299B   http://10.48.140.133/.ht_wsr.txt
+403   302B   http://10.48.140.133/.htaccess.orig
+403   302B   http://10.48.140.133/.htaccess.save
+403   304B   http://10.48.140.133/.htaccess.sample
+403   302B   http://10.48.140.133/.htaccess_orig
+403   302B   http://10.48.140.133/.htaccess.bak1
+403   303B   http://10.48.140.133/.htaccess_extra
+403   300B   http://10.48.140.133/.htaccessOLD
+403   300B   http://10.48.140.133/.htaccessBAK
+403   300B   http://10.48.140.133/.htaccess_sc
+403   301B   http://10.48.140.133/.htaccessOLD2
+403   292B   http://10.48.140.133/.htm
+403   293B   http://10.48.140.133/.html
+403   302B   http://10.48.140.133/.htpasswd_test
+403   298B   http://10.48.140.133/.htpasswds
+403   299B   http://10.48.140.133/.httr-oauth
+301   315B   http://10.48.140.133/assets    -> REDIRECTS TO: http://10.48.140.133/assets/
+200   473B   http://10.48.140.133/assets/
+301   315B   http://10.48.140.133/images    -> REDIRECTS TO: http://10.48.140.133/images/
+200   508B   http://10.48.140.133/images/
+200     6KB  http://10.48.140.133/LICENSE.txt
+200   774B   http://10.48.140.133/README.txt
+200    26B   http://10.48.140.133/robots.txt
+200   228B   http://10.48.140.133/security.txt
+403   302B   http://10.48.140.133/server-status/
+403   301B   http://10.48.140.133/server-status
