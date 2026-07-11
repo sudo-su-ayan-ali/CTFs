@@ -1,0 +1,5 @@
+# Dirsearch started Tue Jul  7 10:47:40 2026 as: /usr/lib/python3/dist-packages/dirsearch/dirsearch.py -u 10.49.131.123 -w /usr/share/seclists/Discovery/Web-Content/DirBuster-2007_directory-list-2.3-medium.txt
+
+301   312B   http://10.49.131.123/css    -> REDIRECTS TO: http://10.49.131.123/css/
+301   311B   http://10.49.131.123/js    -> REDIRECTS TO: http://10.49.131.123/js/
+403   278B   http://10.49.131.123/server-status
