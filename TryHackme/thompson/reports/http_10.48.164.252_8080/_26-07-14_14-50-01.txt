@@ -1,0 +1,4 @@
+# Dirsearch started Tue Jul 14 14:50:54 2026 as: /usr/lib/python3/dist-packages/dirsearch/dirsearch.py -u http://10.48.164.252:8080 -w /usr/share/seclists/Discovery/Web-Content/DirBuster-2007_directory-list-2.3-medium.txt
+
+302     0B   http://10.48.164.252:8080/docs    -> REDIRECTS TO: /docs/
+302     0B   http://10.48.164.252:8080/examples    -> REDIRECTS TO: /examples/
