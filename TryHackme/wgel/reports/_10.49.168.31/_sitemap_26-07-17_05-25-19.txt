@@ -1,0 +1,31 @@
+# Dirsearch started Fri Jul 17 05:26:06 2026 as: /usr/lib/python3/dist-packages/dirsearch/dirsearch.py -u 10.49.168.31/sitemap
+
+301   317B   http://10.49.168.31/sitemap/js    -> REDIRECTS TO: http://10.49.168.31/sitemap/js/
+200    14KB  http://10.49.168.31/sitemap/.DS_Store
+403   277B   http://10.49.168.31/sitemap/.ht_wsr.txt
+403   277B   http://10.49.168.31/sitemap/.htaccess.bak1
+403   277B   http://10.49.168.31/sitemap/.htaccess.sample
+403   277B   http://10.49.168.31/sitemap/.htaccess.orig
+403   277B   http://10.49.168.31/sitemap/.htaccess.save
+403   277B   http://10.49.168.31/sitemap/.htaccess_orig
+403   277B   http://10.49.168.31/sitemap/.htaccess_extra
+403   277B   http://10.49.168.31/sitemap/.htaccess_sc
+403   277B   http://10.49.168.31/sitemap/.htaccessBAK
+403   277B   http://10.49.168.31/sitemap/.htaccessOLD2
+403   277B   http://10.49.168.31/sitemap/.htaccessOLD
+403   277B   http://10.49.168.31/sitemap/.html
+403   277B   http://10.49.168.31/sitemap/.htm
+403   277B   http://10.49.168.31/sitemap/.htpasswds
+403   277B   http://10.49.168.31/sitemap/.httr-oauth
+403   277B   http://10.49.168.31/sitemap/.htpasswd_test
+200     2KB  http://10.49.168.31/sitemap/.sass-cache/
+301   319B   http://10.49.168.31/sitemap/.ssh    -> REDIRECTS TO: http://10.49.168.31/sitemap/.ssh/
+200   462B   http://10.49.168.31/sitemap/.ssh/
+200     2KB  http://10.49.168.31/sitemap/.ssh/id_rsa
+200     3KB  http://10.49.168.31/sitemap/about.html
+200     3KB  http://10.49.168.31/sitemap/contact.html
+301   318B   http://10.49.168.31/sitemap/css    -> REDIRECTS TO: http://10.49.168.31/sitemap/css/
+301   320B   http://10.49.168.31/sitemap/fonts    -> REDIRECTS TO: http://10.49.168.31/sitemap/fonts/
+301   321B   http://10.49.168.31/sitemap/images    -> REDIRECTS TO: http://10.49.168.31/sitemap/images/
+200     1KB  http://10.49.168.31/sitemap/images/
+200   813B   http://10.49.168.31/sitemap/js/
