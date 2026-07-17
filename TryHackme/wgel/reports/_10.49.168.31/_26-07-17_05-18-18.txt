@@ -1,0 +1,21 @@
+# Dirsearch started Fri Jul 17 05:19:34 2026 as: /usr/lib/python3/dist-packages/dirsearch/dirsearch.py -u 10.49.168.31
+
+403   277B   http://10.49.168.31/.ht_wsr.txt
+403   277B   http://10.49.168.31/.htaccess.orig
+403   277B   http://10.49.168.31/.htaccess.bak1
+403   277B   http://10.49.168.31/.htaccess.sample
+403   277B   http://10.49.168.31/.htaccess.save
+403   277B   http://10.49.168.31/.htaccess_extra
+403   277B   http://10.49.168.31/.htaccessBAK
+403   277B   http://10.49.168.31/.htaccess_orig
+403   277B   http://10.49.168.31/.htaccessOLD2
+403   277B   http://10.49.168.31/.htaccessOLD
+403   277B   http://10.49.168.31/.htm
+403   277B   http://10.49.168.31/.htaccess_sc
+403   277B   http://10.49.168.31/.html
+403   277B   http://10.49.168.31/.httr-oauth
+403   277B   http://10.49.168.31/.htpasswds
+403   277B   http://10.49.168.31/.htpasswd_test
+403   277B   http://10.49.168.31/server-status
+403   277B   http://10.49.168.31/server-status/
+301   314B   http://10.49.168.31/sitemap    -> REDIRECTS TO: http://10.49.168.31/sitemap/
