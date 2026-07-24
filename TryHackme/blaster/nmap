@@ -1,0 +1,9 @@
+# Nmap 7.99 scan initiated Fri Jul 24 10:25:31 2026 as: nmap -Pn -T4 -p- -o nmap 10.49.132.176
+Nmap scan report for 10.49.132.176 (10.49.132.176)
+Host is up (0.024s latency).
+Not shown: 65533 filtered tcp ports (no-response)
+PORT     STATE SERVICE
+80/tcp   open  http
+3389/tcp open  ms-wbt-server
+
+# Nmap done at Fri Jul 24 10:27:03 2026 -- 1 IP address (1 host up) scanned in 92.40 seconds
