@@ -1,0 +1,108 @@
+# Nmap 7.95 scan initiated Fri Jul 31 10:30:28 2026 as: nmap -Pn -T4 -A -sC -sV -o nmap 10.49.175.225
+Nmap scan report for 10.49.175.225 (10.49.175.225)
+Host is up (0.014s latency).
+Not shown: 989 closed tcp ports (reset)
+PORT     STATE SERVICE     VERSION
+22/tcp   open  ssh         OpenSSH 6.6.1p1 Ubuntu 2ubuntu2.13 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   256 21:01:8b:37:f5:1e:2b:c5:57:f1:b0:42:b7:32:ab:ea (ECDSA)
+|_  256 f6:36:07:3c:3b:3d:71:30:c4:cd:2a:13:00:b5:25:ae (ED25519)
+80/tcp   open  http        Apache httpd 2.4.7 ((Ubuntu))
+|_http-server-header: Apache/2.4.7 (Ubuntu)
+1090/tcp open  java-rmi    Java RMI
+1091/tcp open  ff-sm?
+1098/tcp open  java-rmi    Java RMI
+1099/tcp open  java-object Java Object Serialization
+| fingerprint-strings: 
+|   NULL: 
+|     java.rmi.MarshalledObject|
+|     hash[
+|     locBytest
+|     objBytesq
+|     xpuJ
+|     #http://thm-java-deserial.home:8083/q
+|     org.jnp.server.NamingServer_Stub
+|     java.rmi.server.RemoteStub
+|     java.rmi.server.RemoteObject
+|     xpwA
+|     UnicastRef2
+|_    thm-java-deserial.home
+4446/tcp open  java-object Java Object Serialization
+5500/tcp open  hotline?
+| fingerprint-strings: 
+|   GenericLines, NULL: 
+|     DIGEST-MD5
+|     GSSAPI
+|     CRAM-MD5
+|     NTLM
+|     thm-java-deserial
+|   GetRequest: 
+|     DIGEST-MD5
+|     NTLM
+|     GSSAPI
+|     CRAM-MD5
+|     thm-java-deserial
+|   HTTPOptions: 
+|     NTLM
+|     DIGEST-MD5
+|     CRAM-MD5
+|     GSSAPI
+|     thm-java-deserial
+|   RPCCheck: 
+|     GSSAPI
+|     NTLM
+|     CRAM-MD5
+|     DIGEST-MD5
+|     thm-java-deserial
+|   RTSPRequest: 
+|     NTLM
+|     CRAM-MD5
+|     GSSAPI
+|     DIGEST-MD5
+|_    thm-java-deserial
+8009/tcp open  ajp13       Apache Jserv (Protocol v1.3)
+8080/tcp open  http        Apache Tomcat/Coyote JSP engine 1.1
+|_http-server-header: Apache-Coyote/1.1
+8083/tcp open  http        JBoss service httpd
+3 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port1099-TCP:V=7.95%I=7%D=7/31%Time=6A6C2BED%P=x86_64-pc-linux-gnu%r(NU
+SF:LL,17B,"\xac\xed\0\x05sr\0\x19java\.rmi\.MarshalledObject\|\xbd\x1e\x97
+SF:\xedc\xfc>\x02\0\x03I\0\x04hash\[\0\x08locBytest\0\x02\[B\[\0\x08objByt
+SF:esq\0~\0\x01xpuJ\xd5\x9fur\0\x02\[B\xac\xf3\x17\xf8\x06\x08T\xe0\x02\0\
+SF:0xp\0\0\x004\xac\xed\0\x05t\0#http://thm-java-deserial\.home:8083/q\0~\
+SF:0\0q\0~\0\0uq\0~\0\x03\0\0\0\xcd\xac\xed\0\x05sr\0\x20org\.jnp\.server\
+SF:.NamingServer_Stub\0\0\0\0\0\0\0\x02\x02\0\0xr\0\x1ajava\.rmi\.server\.
+SF:RemoteStub\xe9\xfe\xdc\xc9\x8b\xe1e\x1a\x02\0\0xr\0\x1cjava\.rmi\.serve
+SF:r\.RemoteObject\xd3a\xb4\x91\x0ca3\x1e\x03\0\0xpwA\0\x0bUnicastRef2\0\0
+SF:\x16thm-java-deserial\.home\0\0\x04J\xe3\x1f\xd1\xb8\xff\x02o\xde\xd7\x
+SF:f6h\x1c\0\0\x01\x9f\xb6\x8a3\xba\x80\x02\0x");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port4446-TCP:V=7.95%I=7%D=7/31%Time=6A6C2BF3%P=x86_64-pc-linux-gnu%r(NU
+SF:LL,4,"\xac\xed\0\x05");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port5500-TCP:V=7.95%I=7%D=7/31%Time=6A6C2BF3%P=x86_64-pc-linux-gnu%r(NU
+SF:LL,4B,"\0\0\0G\0\0\x01\0\x03\x04\0\0\0\x03\x03\x04\0\0\0\x02\x01\nDIGES
+SF:T-MD5\x01\x06GSSAPI\x01\x08CRAM-MD5\x01\x04NTLM\x02\x11thm-java-deseria
+SF:l")%r(GenericLines,4B,"\0\0\0G\0\0\x01\0\x03\x04\0\0\0\x03\x03\x04\0\0\
+SF:0\x02\x01\nDIGEST-MD5\x01\x06GSSAPI\x01\x08CRAM-MD5\x01\x04NTLM\x02\x11
+SF:thm-java-deserial")%r(GetRequest,4B,"\0\0\0G\0\0\x01\0\x03\x04\0\0\0\x0
+SF:3\x03\x04\0\0\0\x02\x01\nDIGEST-MD5\x01\x04NTLM\x01\x06GSSAPI\x01\x08CR
+SF:AM-MD5\x02\x11thm-java-deserial")%r(HTTPOptions,4B,"\0\0\0G\0\0\x01\0\x
+SF:03\x04\0\0\0\x03\x03\x04\0\0\0\x02\x01\x04NTLM\x01\nDIGEST-MD5\x01\x08C
+SF:RAM-MD5\x01\x06GSSAPI\x02\x11thm-java-deserial")%r(RTSPRequest,4B,"\0\0
+SF:\0G\0\0\x01\0\x03\x04\0\0\0\x03\x03\x04\0\0\0\x02\x01\x04NTLM\x01\x08CR
+SF:AM-MD5\x01\x06GSSAPI\x01\nDIGEST-MD5\x02\x11thm-java-deserial")%r(RPCCh
+SF:eck,4B,"\0\0\0G\0\0\x01\0\x03\x04\0\0\0\x03\x03\x04\0\0\0\x02\x01\x06GS
+SF:SAPI\x01\x04NTLM\x01\x08CRAM-MD5\x01\nDIGEST-MD5\x02\x11thm-java-deseri
+SF:al");
+OS fingerprint not ideal because: Didn't receive UDP response. Please try again with -sSU
+No OS matches for host
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+TRACEROUTE (using port 443/tcp)
+HOP RTT    ADDRESS
+1   ... 30
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Fri Jul 31 10:32:39 2026 -- 1 IP address (1 host up) scanned in 130.81 seconds
