@@ -1,0 +1,4 @@
+2026/08/02 16:41:13 >  Using KDC(s):
+2026/08/02 16:41:13 >  	10.49.143.89:88
+2026/08/02 16:41:13 >  [+] VALID USERNAME:	 administrator@spookysec.local
+2026/08/02 16:41:13 >  Done! Tested 17 usernames (1 valid) in 0.057 seconds

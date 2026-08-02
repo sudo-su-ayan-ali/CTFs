@@ -1,0 +1,19 @@
+2026/08/02 16:42:57 >  Using KDC(s):
+2026/08/02 16:42:57 >  	10.49.143.89:88
+2026/08/02 16:42:57 >  [+] VALID USERNAME:	 james@spookysec.local
+2026/08/02 16:42:58 >  [+] VALID USERNAME:	 James@spookysec.local
+2026/08/02 16:42:58 >  [+] VALID USERNAME:	 robin@spookysec.local
+2026/08/02 16:43:00 >  [+] VALID USERNAME:	 darkstar@spookysec.local
+2026/08/02 16:43:02 >  [+] VALID USERNAME:	 administrator@spookysec.local
+2026/08/02 16:43:09 >  [+] VALID USERNAME:	 backup@spookysec.local
+2026/08/02 16:43:10 >  [+] VALID USERNAME:	 paradox@spookysec.local
+2026/08/02 16:43:15 >  [+] VALID USERNAME:	 JAMES@spookysec.local
+2026/08/02 16:43:17 >  [+] VALID USERNAME:	 Robin@spookysec.local
+2026/08/02 16:43:29 >  [+] VALID USERNAME:	 Administrator@spookysec.local
+2026/08/02 16:43:51 >  [+] VALID USERNAME:	 Darkstar@spookysec.local
+2026/08/02 16:44:00 >  [+] VALID USERNAME:	 Paradox@spookysec.local
+2026/08/02 16:44:26 >  [+] VALID USERNAME:	 DARKSTAR@spookysec.local
+2026/08/02 16:44:34 >  [+] VALID USERNAME:	 ori@spookysec.local
+2026/08/02 16:44:48 >  [+] VALID USERNAME:	 ROBIN@spookysec.local
+2026/08/02 16:46:42 >  [+] VALID USERNAME:	 DarkStar@spookysec.local
+2026/08/02 16:47:30 >  [+] VALID USERNAME:	 optional@spookysec.local
